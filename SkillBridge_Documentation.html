@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>توثيق مشروع SkillBridge</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #fff;
+        }
+
+        h1, h2, h3 {
+            color: #1e1b4b;
+            font-family: 'Amiri', serif;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+
+        h1 { font-size: 2.5em; text-align: center; margin-bottom: 40px; }
+        
+        .header-box {
+            background-color: #f8fafc;
+            border-right: 5px solid #6366f1;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            border: 1px solid #e2e8f0;
+            padding: 12px;
+            text-align: right;
+        }
+
+        th { background-color: #f1f5f9; }
+
+        .feature-box {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+        }
+
+        .highlight { color: #6366f1; font-weight: bold; }
+
+        @media print {
+            body { padding: 0; }
+            .no-print { display: none; }
+        }
+
+        .btn-print {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: #6366f1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Cairo', sans-serif;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <button class="btn-print no-print" onclick="window.print()">تحميل كـ PDF</button>
+
+    <h1>توثيق مشروع SkillBridge 🚀</h1>
+    
+    <div class="header-box">
+        <p><strong>اسم المشروع:</strong> SkillBridge</p>
+        <p><strong>الهدف:</strong> منصة تمكين مهني ذكية لربط الباحثين عن عمل بالوظائف وتدريبهم.</p>
+        <p><strong>التقنيات:</strong> Next.js, Gemini AI, Prisma, PostgreSQL.</p>
+    </div>
+
+    <h2>1. نظرة عامة</h2>
+    <p>تعد منصة <strong>SkillBridge</strong> حلاً تقنياً متطوراً لمواجهة تحديات سوق العمل المعاصر. من خلال دمج الذكاء الاصطناعي التوليدي في رحلة البحث عن عمل، تضمن المنصة أن المتقدمين ليسوا فقط يبحثون عن وظائف، بل يتطورون مهنياً ليكونوا "جاهزين للعمل".</p>
+
+    <h2>2. المميزات الرئيسية</h2>
+    
+    <div class="feature-box">
+        <h3>🤖 مطابقة الوظائف الذكية (Smart Job Matching)</h3>
+        <p>نظام مدعوم بـ <span class="highlight">Google Gemini AI</span> يقوم بتحليل السيرة الذاتية للمستخدم وفهم مهاراته الكامنة، ثم يقترح له الوظائف الأكثر ملاءمة بناءً على "الملاءمة الثقافية والتقنية" وليس مجرد الكلمات المفتاحية.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>🎭 مختبر المقابلات الافتراضي (Interview Lab)</h3>
+        <p>بيئة تدريبية آمنة تتيح للمستخدمين إجراء مقابلات وهمية مع مدرب ذكاء اصطناعي. يحصل المستخدم على تقرير مفصل يشمل نقاط القوة والضعف وتوصيات للتحسين.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>🗺️ خارطة الطريق التعليمية (Learning Roadmap)</h3>
+        <p>تقوم المنصة بتحديد "الفجوة المهارية" لدى المستخدم وتوفر له مساراً تعليمياً مخصصاً يتضمن كورسات ومشاريع عملية لسد هذه الفجوة في أقصر وقت ممكن.</p>
+    </div>
+
+    <div class="feature-box">
+        <h3>💰 سوق الأعمال الصغيرة (Micro-Gigs)</h3>
+        <p>منصة مصغرة داخل الموقع تتيح للمبتدئين الحصول على مشاريع صغيرة لكسب الخبرة وبناء معرض أعمال حقيقي مع تحقيق دخل مادي بسيط.</p>
+    </div>
+
+    <h2>3. البنية التحتية والتقنيات</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>المجال</th>
+                <th>التقنية</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>الواجهة الأمامية والخلفية</td>
+                <td>Next.js 16 (React)</td>
+            </tr>
+            <tr>
+                <td>محرك الذكاء الاصطناعي</td>
+                <td>Google Gemini 1.5 Flash</td>
+            </tr>
+            <tr>
+                <td>قاعدة البيانات</td>
+                <td>PostgreSQL</td>
+            </tr>
+            <tr>
+                <td>إدارة البيانات (ORM)</td>
+                <td>Prisma</td>
+            </tr>
+            <tr>
+                <td>التصميم والتفاعلات</td>
+                <td>Tailwind CSS & Framer Motion</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. الهيكل التنظيمي للمشروع</h2>
+    <ul>
+        <li><code>src/app/[locale]</code>: إدارة الصفحات والمسارات مع دعم تعدد اللغات.</li>
+        <li><code>src/components/seeker</code>: المكونات الخاصة بالباحثين عن عمل (الداشبورد، المحاكي).</li>
+        <li><code>src/app/actions</code>: الدوال البرمجية التي تتعامل مع قاعدة البيانات والذكاء الاصطناعي.</li>
+        <li><code>prisma/schema.prisma</code>: المخطط الهيكلي للبيانات.</li>
+    </ul>
+
+    <h2>5. الخلاصة</h2>
+    <p>مشروع SkillBridge ليس مجرد موقع للوظائف، بل هو شريك مهني ذكي يرافق المستخدم من لحظة التخرج حتى الحصول على الوظيفة المرموقة، مع ضمان تطوير مستمر لمهاراته لتبقى مواكبة للسوق.</p>
+
+    <footer style="margin-top: 50px; text-align: center; font-size: 0.9em; color: #666;">
+        تم إصدار هذا المستند في مايو 2026 - جميع الحقوق محفوظة لمشروع SkillBridge.
+    </footer>
+</body>
+</html>
