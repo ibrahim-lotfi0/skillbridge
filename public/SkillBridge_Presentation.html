@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillBridge Presentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/theme/black.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --secondary: #a855f7;
+            --accent: #ec4899;
+            --dark: #0f172a;
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif !important;
+            background: var(--dark);
+        }
+
+        .reveal {
+            background: radial-gradient(circle at top right, #1e1b4b, #0f172a);
+        }
+
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+            font-family: 'Cairo', sans-serif !important;
+            text-transform: none !important;
+            background: linear-gradient(to right, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+        }
+
+        .reveal section img {
+            border: none;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border-radius: 12px;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 1rem;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .tech-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            background: rgba(99, 102, 241, 0.2);
+            border: 1px solid var(--primary);
+            border-radius: 50px;
+            font-size: 0.8em;
+            margin: 5px;
+            color: #e2e8f0;
+        }
+
+        .highlight {
+            color: var(--accent);
+            font-weight: bold;
+        }
+
+        /* Custom RTL tweaks for Reveal.js */
+        .reveal .slides {
+            text-align: right;
+        }
+        
+        .reveal .controls {
+            left: 10px;
+            right: auto;
+        }
+
+        .reveal .progress {
+            height: 5px;
+            background: rgba(255,255,255,0.1);
+        }
+
+        .reveal .progress span {
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- Title Slide -->
+            <section data-background-gradient="linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%)">
+                <div class="glass-card">
+                    <h1>SkillBridge 🚀</h1>
+                    <p>منصة التمكين المهني المدعومة بالذكاء الاصطناعي</p>
+                    <hr style="border: 0; height: 1px; background: linear-gradient(to right, transparent, var(--primary), transparent); margin: 2rem 0;">
+                    <p style="font-size: 0.8em; opacity: 0.8;">جسرك نحو مستقبل مهني أفضل</p>
+                </div>
+            </section>
+
+            <!-- Problem Slide -->
+            <section>
+                <h3>🚩 التحديات الراهنة</h3>
+                <div class="glass-card" style="text-align: right;">
+                    <ul style="list-style: none;">
+                        <li class="fragment">❌ <span class="highlight">البطالة التقنية:</span> صعوبة إيجاد وظائف تناسب المهارات.</li>
+                        <li class="fragment">❌ <span class="highlight">فجوة المهارات:</span> عدم معرفة المتطلبات الحقيقية للسوق.</li>
+                        <li class="fragment">❌ <span class="highlight">رهبة المقابلات:</span> قلق المتقدمين من الاختبارات الحية.</li>
+                        <li class="fragment">❌ <span class="highlight">ضعف الملف المهني:</span> صعوبة بناء معرض أعمال للمبتدئين.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Solution Slide -->
+            <section data-background-gradient="linear-gradient(135deg, #1e1b4b 0%, #312e81 100%)">
+                <h3>💡 الحل الذكي</h3>
+                <div class="glass-card">
+                    <p>SkillBridge ليس مجرد موقع وظائف...</p>
+                    <p class="fragment">هو <span class="highlight">مساعد مهني متكامل</span> يستخدم الذكاء الاصطناعي لربط الباحثين عن عمل بالفرص المناسبة وتدريبهم لسد الفجوات المهنية.</p>
+                </div>
+            </section>
+
+            <!-- Features Slide -->
+            <section>
+                <h3>✨ المميزات الأساسية</h3>
+                <div class="feature-grid">
+                    <div class="glass-card fragment" style="font-size: 0.7em;">
+                        <h4>🤖 مطابقة ذكية</h4>
+                        <p>ربط دقيق بين السيرة الذاتية والوظائف المتاحة بناءً على السياق.</p>
+                    </div>
+                    <div class="glass-card fragment" style="font-size: 0.7em;">
+                        <h4>🎭 محاكي المقابلات</h4>
+                        <p>تدريب واقعي مع تقييم ذكي فوري للأداء التقني والشخصي.</p>
+                    </div>
+                    <div class="glass-card fragment" style="font-size: 0.7em;">
+                        <h4>🗺️ خارطة الطريق</h4>
+                        <p>تحديد المهارات الناقصة واقتراح مسارات تعلم مخصصة.</p>
+                    </div>
+                    <div class="glass-card fragment" style="font-size: 0.7em;">
+                        <h4>💰 الأعمال الصغيرة</h4>
+                        <p>كسب الدخل وبناء الخبرة من خلال مشاريع قصيرة المدى.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tech Stack Slide -->
+            <section>
+                <h3>🛠️ التقنيات المستخدمة</h3>
+                <div class="glass-card">
+                    <div class="tech-badge">Next.js 16</div>
+                    <div class="tech-badge">Google Gemini AI</div>
+                    <div class="tech-badge">Prisma & PostgreSQL</div>
+                    <div class="tech-badge">Tailwind CSS 4</div>
+                    <div class="tech-badge">Framer Motion</div>
+                    <div class="tech-badge">TypeScript</div>
+                </div>
+            </section>
+
+            <!-- Why SkillBridge -->
+            <section data-background-gradient="linear-gradient(135deg, #312e81 0%, #0f172a 100%)">
+                <h3>🎯 لماذا SkillBridge؟</h3>
+                <div class="glass-card" style="text-align: right; font-size: 0.8em;">
+                    <p>✅ <span class="highlight">توجيه مستمر:</span> لست وحدك في رحلة البحث.</p>
+                    <p>✅ <span class="highlight">تطوير مهارات:</span> تعلم ما يحتاجه السوق فعلاً.</p>
+                    <p>✅ <span class="highlight">ثقة أعلى:</span> جاهزية تامة للمقابلات الوظيفية.</p>
+                    <p>✅ <span class="highlight">تكلفة صفرية:</span> توجيه مهني متاح للجميع.</p>
+                </div>
+            </section>
+
+            <!-- Conclusion Slide -->
+            <section>
+                <div class="glass-card">
+                    <h2>شكراً لكم!</h2>
+                    <p>SkillBridge - جسرك نحو مستقبل مهني أفضل</p>
+                    <div style="margin-top: 2rem;">
+                        <span class="tech-badge" style="border-color: var(--accent); color: var(--accent);">Ready to Start?</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            rtl: true,
+            hash: true,
+            center: true,
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+            backgroundTransition: 'fade'
+        });
+    </script>
+</body>
+</html>

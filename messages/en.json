@@ -1,0 +1,117 @@
+{
+  "Navigation": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "jobs": "Jobs",
+    "gigs": "Micro-Gigs",
+    "learning": "Skill Roadmap",
+    "companies": "Companies",
+    "about": "About",
+    "dashboard": "Dashboard",
+    "signOut": "Sign Out",
+    "poweredByAI": "Powered by AI — Find Your Perfect Match"
+  },
+  "Index": {
+    "title": "SkillBridge",
+    "description": "Connecting talents to opportunities via AI",
+    "getStarted": "Get Started",
+    "searchJobs": "Search Jobs",
+    "poweredByAI": "Powered by AI — Find Your Perfect Match",
+    "stats": {
+      "seekers": "Job Seekers",
+      "companies": "Hiring Companies",
+      "placement": "Placement Rate"
+    },
+    "features": {
+      "title": "Why Choose SkillBridge?",
+      "subtitle": "Advanced tools to professionalize your career journey.",
+      "aiMatching": "AI Matching",
+      "aiMatchingDesc": "Smart matches based on skills and experience",
+      "cvParsing": "CV Parsing",
+      "cvParsingDesc": "Extract skills instantly from your resume",
+      "dashboard": "Smart Dashboard",
+      "dashboardDesc": "Track applications and skill gaps",
+      "interview": "Interview Lab",
+      "interviewDesc": "Practice with AI-generated mock interviews",
+      "salary": "Salary Insights",
+      "salaryDesc": "Real-time market compensation data",
+      "coaching": "Career Coach",
+      "coachingDesc": "24/7 AI-powered professional advice"
+    },
+    "cta": {
+      "title": "Ready to bridge the gap?",
+      "subtitle": "Join thousands of professionals finding their ideal roles today.",
+      "primary": "Join for Free",
+      "secondary": "Post a Job"
+    }
+  },
+  "Auth": {
+    "login": "Login",
+    "signup": "Sign Up",
+    "welcomeBack": "Welcome Back",
+    "enterDetails": "Enter your credentials to access your account",
+    "createAccount": "Create an Account",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "password": "Password",
+    "jobSeeker": "Job Seeker",
+    "employer": "Employer",
+    "acceptTerms": "By clicking create, you agree to the",
+    "termsOfService": "Terms of Service",
+    "privacyPolicy": "Privacy Policy",
+    "orContinueWith": "Or continue with",
+    "loginWithGoogle": "Continue with Google",
+    "loginWithGithub": "Continue with GitHub",
+    "notRegistered": "Not registered yet?",
+    "alreadyRegistered": "Already have an account?",
+    "invalidCredentials": "Invalid email or password",
+    "unexpectedError": "An unexpected error occurred",
+    "forgotPassword": "Forgot password?"
+  },
+  "Common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "save": "Save",
+    "cancel": "Cancel",
+    "viewDetails": "View Details"
+  },
+  "Dashboard": {
+    "welcome": "Welcome back",
+    "seekerProfile": "Seeker Profile",
+    "employerPortal": "Employer Portal",
+    "myApplications": "My Applications",
+    "savedJobs": "Saved Jobs",
+    "aiInsights": "AI Insights",
+    "matchScore": "Match Score",
+    "analysisResults": "Analysis Results",
+    "startInterview": "Start Mock Interview",
+    "postJob": "Post a New Job",
+    "activeJobs": "Active Job Listings",
+    "applicants": "Applicants",
+    "noApplications": "No applications yet. Complete your profile to get started!"
+  },
+  "AI": {
+    "coachTitle": "AI Career Coach",
+    "coachSubtitle": "24/7 Professional Assistant",
+    "coachPlaceholder": "Ask me anything about your career...",
+    "interviewLab": "Interview Lab",
+    "matchingDesc": "AI Match based on your parsed skills",
+    "skillGapTitle": "Skill Gap Roadmap",
+    "analyzing": "Analyzing with AI...",
+    "generating": "Generating insights..."
+  },
+  "Onboarding": {
+    "welcome": "Welcome, {name}!",
+    "subtitle": "SkillBridge is your AI career partner. Let's set up your profile to start finding perfect matches.",
+    "getStarted": "Get Started",
+    "foundation": "Your Professional Foundation",
+    "cvSubtitle": "Upload your CV to let AI extract your skills and impact.",
+    "skip": "Skip for now, I'll do it later",
+    "goalsTitle": "What are your career goals?",
+    "goalsSubtitle": "Tell us about your dream role or what you want to achieve next.",
+    "goalsPlaceholder": "e.g. I want to transition into Lead Product Management in the FinTech space within 2 years.",
+    "finish": "You're all set!",
+    "finishSubtitle": "Your AI-powered career journey begins now. Head over to your dashboard.",
+    "goDashboard": "Go to Dashboard"
+  }
+}
